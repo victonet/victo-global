@@ -9,6 +9,7 @@
  
  <!-- Head -->
  <?php include $_SERVER["DOCUMENT_ROOT"] . "/global/static/includes/head.php"; ?>
+ <script src="https://www.google.com/recaptcha/api.js" async defer></script>
  <head>
  <title>Contact us - Victo Global</title>
  </head>
@@ -145,7 +146,7 @@
         padding: 10px 25px;
         font-size: 18px;
         cursor: pointer;
-        margin-top: 1.8rem;
+        margin-top: 0rem;
         text-transform: uppercase;
         font-family: VictoCA-Medium;
         transition: .2s;
@@ -157,7 +158,15 @@
     }
 
     #my-form-status{
-        margin: 10px 0
+        margin-top: 20px;
+        font-family: VictoCA-Medium;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    /* Recaptcha */
+    .g-recaptcha{
+        margin-top: 1rem;
     }
 
     @media screen and (max-width: 1024px) {
@@ -168,6 +177,10 @@
         /* Form */
         form{
             width: 100%;
+            padding: 20px;
+        }
+        .g-recaptcha{
+            margin: 1.2rem 0;
         }
     }
 
@@ -211,6 +224,7 @@
                             <input type="email" name="email" id="email" for="email" placeholder="Your Email" required><br>
                     
                             <textarea name="message" id="message" for="message" placeholder="Your Message" cols="30" rows="5" required></textarea><br>
+                            <div class="g-recaptcha" data-sitekey="6LdI0zsbAAAAADhzNN_036zggj2NtyYuwPReSz9d"></div><br>
                             <button type="submit" class="submit_btn">Send</button>
                             <p id="my-form-status"></p>
                         </form>
@@ -240,13 +254,24 @@
             'Accept': 'application/json'
         }
       }).then(response => {
-        status.innerHTML = "Thanks for your submission!";
+        status.innerHTML = "Your form has been submitted successfully! We will get in touch with you soon.";
         form.reset()
       }).catch(error => {
         status.innerHTML = "Oops! There was a problem submitting your form"
       });
     }
     form.addEventListener("submit", handleSubmit)
+</script>
+
+<script>
+
+window.onload = function() { 
+  var el = document.getElementById('g-recaptcha-response'); 
+  if (el) { 
+    el.setAttribute('required', 'required'); 
+  } 
+}
+
 </script>
 
 </html>
