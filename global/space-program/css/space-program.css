@@ -1,0 +1,61 @@
+#space-prg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 85vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flex-container-text {
+  color: black;
+}
+
+.flex-container-text h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.flex-container-text p {
+  font-size: 18px;
+}
+
+.cta_axt {
+  margin-top: 1rem;
+}
+
+.cta_link {
+  color: black;
+  text-underline-position: under;
+  text-underline-offset: 3px;
+  font-weight: bold;
+}
+
+.cta_link:hover {
+  color: #00aeff;
+}
+
+@media screen and (max-width: 1024px) {
+  #space-prg {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    padding: 0px 0px 5rem 0px;
+    text-align: center;
+  }
+  .flex-container-illus {
+    overflow-y: hidden;
+  }
+  .flex-container-illus img {
+    width: 350px;
+  }
+}
+/*# sourceMappingURL=space-program.css.map */

@@ -1,0 +1,30 @@
+/* Cadiz */
+@font-face {
+  font-family: VictoCA-Light;
+  src: url("https://res.cloudinary.com/victo/raw/upload/v1619098195/untitled-one.victo.in/fonts/cadiz/Cadiz-Light_uljbcs.ttf");
+}
+
+@font-face {
+  font-family: VictoCA-Regular;
+  src: url("https://res.cloudinary.com/victo/raw/upload/v1619098194/untitled-one.victo.in/fonts/cadiz/Cadiz-Regular_q5sjbf.ttf");
+}
+
+@font-face {
+  font-family: VictoCA-Medium;
+  src: url("https://res.cloudinary.com/victo/raw/upload/v1619098195/untitled-one.victo.in/fonts/cadiz/Cadiz-Medium_ucbe6d.ttf");
+}
+
+@font-face {
+  font-family: VictoCA-Semibold;
+  src: url("https://res.cloudinary.com/victo/raw/upload/v1619098194/untitled-one.victo.in/fonts/cadiz/Cadiz-SemiBold_luv1bp.ttf");
+}
+
+@font-face {
+  font-family: VictoCA-Bold;
+  src: url("https://res.cloudinary.com/victo/raw/upload/v1619098194/untitled-one.victo.in/fonts/cadiz/Cadiz-Bold_tdtxlx.ttf");
+}
+
+@font-face {
+  font-family: VictoCA-Black;
+  src: url("https://res.cloudinary.com/victo/raw/upload/v1619098194/untitled-one.victo.in/fonts/cadiz/Cadiz-Black_jlaqdm.ttf");
+}

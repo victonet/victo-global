@@ -1,0 +1,48 @@
+#space-prg {
+  display: flex;
+  height: 85vh;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.flex-container-text {
+  color: black;
+  h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 18px;
+  }
+}
+
+.cta_axt {
+  margin-top: 1rem;
+}
+.cta_link {
+  color: black;
+  text-underline-position: under;
+  text-underline-offset: 3px;
+  font-weight: bold;
+  &:hover {
+    color: rgb(0, 174, 255);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #space-prg {
+    flex-direction: column;
+    height: auto;
+    padding: 0px 0px 5rem 0px;
+    text-align: center;
+  }
+  .flex-container-illus {
+    overflow-y: hidden;
+    img {
+      width: 350px;
+    }
+  }
+}
