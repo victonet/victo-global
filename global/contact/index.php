@@ -156,6 +156,10 @@
         transition: .2s;
     }
 
+    #my-form-status{
+        margin: 10px 0
+    }
+
     @media screen and (max-width: 1024px) {
         
         .col_1 p{
@@ -199,7 +203,7 @@
 
                     <!-- Right Content and Form -->
                     <div class="col_2">
-                        <form action="" method="post">
+                        <form id="my-form" action="https://formspree.io/f/mknkwwjk" method="POST">
                             <h1>Contact Form</h1>
                     
                             <input type="text" name="name" id="name" for="name" placeholder="Your Name" required><br>
@@ -208,6 +212,7 @@
                     
                             <textarea name="message" id="message" for="message" placeholder="Your Message" cols="30" rows="5" required></textarea><br>
                             <button type="submit" class="submit_btn">Send</button>
+                            <p id="my-form-status"></p>
                         </form>
                     </div>
                 </div>
@@ -220,4 +225,28 @@
     <?php include $_SERVER["DOCUMENT_ROOT"] . "/global/static/includes/footer.php"; ?>
     
 </body>
+
+<script>
+    var form = document.getElementById("my-form");
+    
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("my-form-status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        status.innerHTML = "Thanks for your submission!";
+        form.reset()
+      }).catch(error => {
+        status.innerHTML = "Oops! There was a problem submitting your form"
+      });
+    }
+    form.addEventListener("submit", handleSubmit)
+</script>
+
 </html>
