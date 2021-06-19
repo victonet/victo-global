@@ -26,7 +26,7 @@
 
     <img src="https://res.cloudinary.com/victo/image/upload/v1619540395/untitled-one.victo.in/img/illustrations/404_Error_prfecy.gif" alt="A man was fishing unexpectedly caught 404 Error">
 
-    <a href="/global/">GO BACK TO HOME</a>
+    <a href="/">GO BACK TO HOME</a>
 
 </body>
 </html>
