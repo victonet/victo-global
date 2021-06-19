@@ -16,11 +16,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
     <!-- Stylesheet Linking -->
-    <link rel="stylesheet" href="/global/static/css/main/style.css">
-    <link rel="stylesheet" href="/global/static/css/responsive/responsive.css">
+    <link rel="stylesheet" href="/static/css/main/style.css">
+    <link rel="stylesheet" href="/static/css/responsive/responsive.css">
 
     <!-- Favicon Linking -->
-    <link rel="shortcut icon" href="/global/static/img/logo-and-icons/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/static/img/logo-and-icons/favicon.ico" type="image/x-icon">
     
     <!-- Font Awesome Linking -->
     <script src="https://kit.fontawesome.com/1a166d5ba3.js" crossorigin="anonymous"></script>

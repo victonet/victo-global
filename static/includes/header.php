@@ -3,14 +3,14 @@
     <header>
         <nav id="desktop">
             <div class="logo-container">
-                <a href="/global/"><img src="/global/static/img/logo-and-icons/victo-global-logo.svg" width="220px" alt="Victo Logo" title="Victo Global Logo"></a>
+                <a href="/"><img src="/static/img/logo-and-icons/victo-global-logo.svg" width="220px" alt="Victo Logo" title="Victo Global Logo"></a>
             </div>
 
             <ul class="nav-items">
-                <li><a href="/global/" class="nav-item">Home</a></li>
-                <li><a href="/global/about" class="nav-item">About us</a></li>
-                <li><a href="/global/victo-pay" class="nav-item">Victo Pay</a></li>
-                <li><a href="/global/contact" class="nav-item">Contact us</a></li>
+                <li><a href="/" class="nav-item">Home</a></li>
+                <li><a href="/about" class="nav-item">About us</a></li>
+                <li><a href="/victo-pay" class="nav-item">Victo Pay</a></li>
+                <li><a href="/contact" class="nav-item">Contact us</a></li>
             </ul>
         </nav>
     </header>
@@ -22,7 +22,7 @@
         <nav id="respo">
 
             <div class="logo-container">
-                <a href="/global/"><img src="/global/static/img/logo-and-icons/victo-global-logo.svg" width="220px" alt="Victo Logo" title="Victo Global Logo"></a>
+                <a href="/"><img src="/static/img/logo-and-icons/victo-global-logo.svg" width="220px" alt="Victo Logo" title="Victo Global Logo"></a>
             </div>
 
             <div class="ham-wrap">
@@ -30,10 +30,10 @@
                 <div id="myNav" class="overlay">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                     <div class="overlay-content">
-                      <a href="/global/" class="mob-nav-item">Home</a>
-                      <a href="/global/about/" class="mob-nav-item">About us</a>
-                      <a href="/global/victo-pay">Victo Pay</a>
-                      <a href="/global/contact">Contact us</a>
+                      <a href="/" class="mob-nav-item">Home</a>
+                      <a href="/about/" class="mob-nav-item">About us</a>
+                      <a href="/victo-pay">Victo Pay</a>
+                      <a href="/contact">Contact us</a>
                     </div>
                   </div>
             </div>

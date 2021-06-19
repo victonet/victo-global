@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <?php include $_SERVER["DOCUMENT_ROOT"] . "/global/static/includes/head.php"; ?>
+    <?php include $_SERVER["DOCUMENT_ROOT"] . "/static/includes/head.php"; ?>
     
     <head>
         <title>About us - Victo Global</title>
@@ -66,7 +66,7 @@
 
 <body>
 
-    <?php include $_SERVER["DOCUMENT_ROOT"] . "/global/static/includes/header.php"; ?>
+    <?php include $_SERVER["DOCUMENT_ROOT"] . "/static/includes/header.php"; ?>
 
     <main>
 
@@ -86,16 +86,16 @@
                     </p><br>
                 </div>
                 <div class="social-icons">
-                    <a href="https://twitter.com/victoapp" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
-                    <a href="https://instagram.com/victoapp" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
-                    <a href="mailto:admin@victo.in" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a>
+                    <a href="https://twitter.com/victoglobal" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com/victoglobal" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                    <a href="mailto:ask@victo.in" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a>
                 </div>
             </div>
         </section>
 
     </main>
 
-    <?php include $_SERVER["DOCUMENT_ROOT"] . "/global/static/includes/footer.php"; ?>
+    <?php include $_SERVER["DOCUMENT_ROOT"] . "/static/includes/footer.php"; ?>
     
     
 </body>

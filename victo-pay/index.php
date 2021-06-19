@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include $_SERVER["DOCUMENT_ROOT"] . "/global/static/includes/head.php"; ?>
+<?php include $_SERVER["DOCUMENT_ROOT"] . "/static/includes/head.php"; ?>
 <head>
     <title>VictoPay - Victo Global</title>
     <link rel="stylesheet" href="./css/victo-pay.css">
 </head>
 <body>
 
-<?php include $_SERVER["DOCUMENT_ROOT"] . "/global/static/includes/header.php"; ?>
+<?php include $_SERVER["DOCUMENT_ROOT"] . "/static/includes/header.php"; ?>
 
 <main>
 
@@ -31,7 +31,7 @@
 
 </main>
 
-<?php include $_SERVER["DOCUMENT_ROOT"] . "/global/static/includes/footer.php"; ?>
+<?php include $_SERVER["DOCUMENT_ROOT"] . "/static/includes/footer.php"; ?>
     
 </body>
 </html>

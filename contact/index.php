@@ -8,7 +8,7 @@
  -->
  
  <!-- Head -->
- <?php include $_SERVER["DOCUMENT_ROOT"] . "/global/static/includes/head.php"; ?>
+ <?php include $_SERVER["DOCUMENT_ROOT"] . "/static/includes/head.php"; ?>
  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
  <head>
  <title>Contact us - Victo Global</title>
@@ -189,7 +189,7 @@
 <body id="body--desktop">
 
     <!-- Header -->
-    <?php include $_SERVER["DOCUMENT_ROOT"] . "/global/static/includes/header.php"; ?>
+    <?php include $_SERVER["DOCUMENT_ROOT"] . "/static/includes/header.php"; ?>
 
     <main>
 
@@ -205,12 +205,12 @@
                         <p>Victo is all about customer experience and customer support. We are all ears to hear you queries and doubts.</p>
 
                         <div class="social-icons">
-                            <a href="https://twitter.com/victoapp" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
-                            <a href="https://instagram.com/victoapp" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
-                            <a href="mailto:admin@victo.in" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a>
+                            <a href="https://twitter.com/victoglobal" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                            <a href="https://instagram.com/victoglobal" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                            <a href="mailto:ask@victo.in" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a>
                         </div>
 
-                        <a href="mailto:admin@victo.in"  class="mail">admin@victo.in</a>
+                        <a href="mailto:ask@victo.in"  class="mail">ask@victo.in</a>
 
                     </div>
 
@@ -236,7 +236,7 @@
         
     </main>
 
-    <?php include $_SERVER["DOCUMENT_ROOT"] . "/global/static/includes/footer.php"; ?>
+    <?php include $_SERVER["DOCUMENT_ROOT"] . "/static/includes/footer.php"; ?>
     
 </body>
 
