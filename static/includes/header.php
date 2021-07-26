@@ -9,7 +9,7 @@
             <ul class="nav-items">
                 <li><a href="/" class="nav-item">Home</a></li>
                 <li><a href="/about" class="nav-item">About us</a></li>
-                <li><a href="/victo-pay" class="nav-item">Victo Pay</a></li>
+                <li><a href="/victo-pay" class="nav-item">VictoPay</a></li>
                 <li><a href="/contact" class="nav-item">Contact us</a></li>
             </ul>
         </nav>
@@ -32,7 +32,7 @@
                     <div class="overlay-content">
                       <a href="/" class="mob-nav-item">Home</a>
                       <a href="/about/" class="mob-nav-item">About us</a>
-                      <a href="/victo-pay">Victo Pay</a>
+                      <a href="/victo-pay">VictoPay</a>
                       <a href="/contact">Contact us</a>
                     </div>
                   </div>

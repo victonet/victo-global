@@ -4,7 +4,6 @@
 <meta name="title" content="Victo Global Technologies">
 <meta name="description" content="Victo Global is a technology company, it is a subsidiary of Victo Technologies and the company works on a problem-solving platform. The company was founded in 2020 as a social media platform and later changed to a technology company and providing direct public services.">
 <meta name="keywords" content="Victo, Victo Technologies, Victo Global, Victopay, VictoPay, VictoWeb, VictoApp, victo.in, global.victo.in, victopay.com">
-<meta name="robots" content="index, nofollow">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="language" content="English">
 <meta name="revisit-after" content="7 days">
